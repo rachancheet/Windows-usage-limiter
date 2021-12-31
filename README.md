@@ -10,6 +10,7 @@ A counter will appear 5 min before the time runs out.
 2. Make sure python is installed.
 3. Set .pyw file to open with python:
     * Right click Break.pyw.
+    * Properties.
     * open with.
     * select python
 
@@ -19,3 +20,6 @@ A counter will appear 5 min before the time runs out.
 * To dodge the countdown you can sign out of windows and then sign back in.
 
 * You can increase the countdown time by changing the countdown_min in the start of the code.
+
+##
+![k](/'Usage_time.png''Usage Time Set')
