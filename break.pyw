@@ -2,6 +2,9 @@ import os
 import time
 import tkinter as tk
 
+countdown_min = 5
+countdown_sec = 0
+
 root=tk.Tk()
 root.title('Productivity Bitch')
 
@@ -30,12 +33,13 @@ def submit(s):
 	root.destroy()
 	time.sleep((int(num)-5)*60)
 	root2 = tk.Tk()
-	root
 	root2.title('💀')
+	root2.config(bg='Black')
+	root2.geometry('200x125')
 
-	label = tk.Label(root2)
-	label.place(x=35, y=15)
-	countdown(5,0)
+	label = tk.Label(root2,bg='Black',fg='White',font=('calibre',50))
+	label.pack()
+	countdown(countdown_min,countdown_sec)
 	root2.mainloop()
 	os.system("shutdown /s /t 1")
 	exit()
