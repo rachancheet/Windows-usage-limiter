@@ -3,19 +3,12 @@ The program ask for time intended on windows startup and will shutdown windows a
 A counter will appear 5 min before the time runs out.
 
 ## How to Run
-
-### Automatically
-1. Just run the run.bat file.It will download all the Python libraries needed.
-
-### Manual
-1. Place the break.pyw file in windows startup folder(C:\Users\{'username'}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup).
-2. Download Python libraries needed.
-
-
-## Python libraries required
-* tkinter
-* os
-* time
+1. Place the Break.pyw file in winodws startup folder:
+    * Press 'win'+'r'
+    * type shell:startup
+    * This is the startup folder.
+2. Make sure python is installed
+3. Set .pyw file to open with python
 
 
 
