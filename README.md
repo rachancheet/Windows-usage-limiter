@@ -24,5 +24,5 @@ A counter will appear 5 min before the time runs out.
 ##
 ![Usage Time](./Usage_time.png)  
   
-  
+##
 ![Countdown](./countdown.png)
