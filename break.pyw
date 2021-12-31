@@ -31,7 +31,7 @@ def submit(s):
 		root.geometry("500x50")
 		submit('d')
 	root.destroy()
-	time.sleep((int(num)-5)*60)
+	time.sleep((int(num)-countdown_min)*60)
 	root2 = tk.Tk()
 	root2.title('💀')
 	root2.config(bg='Black')

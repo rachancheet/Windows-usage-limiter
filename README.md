@@ -7,9 +7,15 @@ A counter will appear 5 min before the time runs out.
     * Press 'win'+'r'
     * type shell:startup
     * This is the startup folder.
-2. Make sure python is installed
-3. Set .pyw file to open with python
+2. Make sure python is installed.
+3. Set .pyw file to open with python:
+    * Right click Break.pyw.
+    * open with.
+    * select python
 
+## Some points
+* The program is pretty unstoppable unless u end task python from taskmanager.
+* Closing the countdown timer will shutdown windows automatically.
+* To dodge the countdown you can sign out of windows and then sign back in.
 
-
-
+* You can increase the countdown time by changing the countdown_min in the start of the code.
