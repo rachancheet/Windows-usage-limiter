@@ -22,5 +22,7 @@ A counter will appear 5 min before the time runs out.
 * You can increase the countdown time by changing the countdown_min in the start of the code.
 
 ##
-![Usage Time](./Usage_time.png)
+![Usage Time](./Usage_time.png)  
+  
+  
 ![Countdown](./countdown.png)
