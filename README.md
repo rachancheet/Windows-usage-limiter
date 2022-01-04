@@ -2,7 +2,7 @@
 The program ask for time intended on windows startup and will shutdown windows after the set time.  
 A counter will appear 3 min before the time runs out.
   
-The first time the timer runs out it will sign you out froom your pc.
+The first time the timer runs out it will sign you out from your pc.
 but the second time the timer runs out it will shutdown your pc.
 
 If you close the time intended asking window the timer will run out automatically.  
