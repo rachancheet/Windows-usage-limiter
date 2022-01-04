@@ -7,26 +7,18 @@ from playsound import playsound
 root=tk.Tk()
 root.title('Productivity Bitch')
 
-root.geometry("400x50")
+root.geometry("400x70")
 
 num_var=tk.StringVar()
 
 def submit(s):
 	def countdown(min,sec):
 		if (min+sec) == 0 :
-			path = 'C:/Users/RAXXS/Documents/shutdown_counter.txt'
-			fd = open(path,"r" )
-			x = str(fd.read())
-			fd.close()
-			if x == 'yes':
-				fd = open(path,"w")
-				fd.write('no')
-				fd.close()
+			if s == 'shut':
+				print('shut')
 				os.system("shutdown /s /t 1")
-			if x == 'no':
-				fd = open(path,"w")
-				fd.write('yes')
-				fd.close()
+			if s == 'sign':
+				print('sign')
 				os.system("shutdown -l")			
 		label['text'] = f'{min} : {sec}'
 		if min<1:
@@ -76,10 +68,14 @@ num_label = tk.Label(root, text = 'Time Intent(min):   ', font=('calibre',10, 'b
 num_entry = tk.Entry(root,textvariable = num_var, font=('calibre',10,'normal'))
 num_entry.focus()
 warning = tk.Label( text = '',font=('calibre',10, 'bold'))
-root.bind('<Return>',submit)
+# root.bind('<Return>',submit)
+B1 = tk.Button(root,text='Sign out',command=lambda: submit('sign'))
+B2 = tk.Button(root,text='Shutdown',command=lambda: submit('shut'))
 
-num_label.grid(row=0,column=0)
-num_entry.grid(row=0,column=1)
+B1.grid(row=1,column=1,pady=4)
+B2.grid(row=1,column=2,pady=4)
+num_label.grid(row=0,column=0,pady=2)
+num_entry.grid(row=0,column=1,pady=2)
 root.deiconify()
 root.mainloop()
 submit('yes')
