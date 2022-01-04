@@ -6,8 +6,10 @@ If you close the time intended asking window the timer will run out automaticall
 
 
 ## How to Run
-1. Run the setup.py  
-2. Enter windows username(case sensetive)
+1. Make sure Python is installed on your pc.
+2. set the break.pyw to open with Python.
+3. Run the setup.py 
+4. Enter windows username(case sensetive).
 
 
 ## How to remove
