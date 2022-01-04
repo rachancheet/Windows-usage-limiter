@@ -30,7 +30,7 @@ If you close the time intended asking window the timer will run out automaticall
 * You can increase the countdown time by changing the countdown_min in the start of the code.
 
 ##
-![Usage Time](./things/Usage_time.png)  
+![Usage Time](./windows_usage_limiter/Usage_time.png)  
   
 ##
-![Countdown](./things/countdown.png)
+![Countdown](./windows_usage_limiter/countdown.png)
