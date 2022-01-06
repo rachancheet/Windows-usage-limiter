@@ -1,8 +1,7 @@
  # Windows-usage-limiter
-The program ask for time intended on windows startup and will shutdown/Sign out windows after the set time.  
-A counter will appear 3 min before the time runs out.
+The program ask for time intended on windows startup and will shutdown/Sign out windows after the set time.   
 
-If you close the countdown or the time intended asking window the timer will run out automatically.  
+If you close the countdown or the time intended asking window the timer will run out automatically.   
 
 
 ## How to Run
