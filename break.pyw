@@ -40,8 +40,8 @@ def submit(s):
 		if (min+sec) > 0:
 			root2.after(1000, countdown, min,sec-1)
 
-
 	root.destroy()
+	
 	countdown(int(num),0)
 	root2.mainloop()
 	countdown(0,0)
