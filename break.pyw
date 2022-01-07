@@ -40,11 +40,8 @@ def submit(s):
 		if (min+sec) > 0:
 			root2.after(1000, countdown, min,sec-1)
 
-	if s=='yes':
-		os.system("shutdown -l")
-	else:
-		root.destroy()
-	
+
+	root.destroy()
 	countdown(int(num),0)
 	root2.mainloop()
 	countdown(0,0)
@@ -78,5 +75,4 @@ num_label.grid(row=0,column=0,pady=2)
 num_entry.grid(row=0,column=1,pady=2)
 root.deiconify()
 root.mainloop()
-submit('yes')
 
