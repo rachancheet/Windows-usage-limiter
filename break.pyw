@@ -46,19 +46,6 @@ def submit(s):
 	root2.mainloop()
 	countdown(0,0)
 
-	# warning.grid(row=0,column=2)
-	# if int(num)<3:
-	# 	warning['text'] = 'Time must be greater than 3 min'
-	# 	root.geometry("500x50")
-	# 	submit('d')
-
-	
-	# root2.update_idletasks()
-	# root2.update()
-	# pdb.set_trace()
-
-	# exit()
-
 
 num_label = tk.Label(root, text = 'Time Intent(min):   ', font=('calibre',10, 'bold'))
 
