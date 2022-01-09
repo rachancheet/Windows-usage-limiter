@@ -51,8 +51,6 @@ num_label = tk.Label(root, text = 'Time Intent(min):   ', font=('calibre',10, 'b
 
 num_entry = tk.Entry(root,textvariable = num_var, font=('calibre',10,'normal'))
 num_entry.focus()
-# warning = tk.Label( text = '',font=('calibre',10, 'bold'))
-# root.bind('<Return>',submit)
 B1 = tk.Button(root,text='Sign out',command=lambda: submit('sign'))
 B2 = tk.Button(root,text='Shutdown',command=lambda: submit('shut'))
 
