@@ -7,7 +7,12 @@ If you close the countdown the timer will run out automatically.
 ## How to Run
 1. Make sure Python is installed on your pc.
 2. set the break.pyw to open with Python.
-3. Run the setup.py 
+3. Run the setup.py  OR  Run the setup.bat file:
+* Dobule click the setup.bat file.
+* A standard windows unkown publisher warning will appear.
+* Press read more.
+* select run anyways.
+
 4. Enter windows username(case sensetive).
 
 
