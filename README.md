@@ -6,7 +6,11 @@ If you close the countdown the timer will run out automatically.
 
 ## How to Run
 1. Make sure Python is installed on your pc.
-2. set the break.pyw to open with Python.
+2. set the break.pyw to open with Python.:
+* Right click break.pyw.
+* Properties.
+* Open with.
+* Python.
 3. Run the setup.py  OR  Run the setup.bat file:
 * Dobule click the setup.bat file.
 * A standard windows unkown publisher warning will appear.
@@ -19,7 +23,7 @@ If you close the countdown the timer will run out automatically.
 ## How to remove
 
 
-1. Remove the break.py file from [windows startup folder](https://www.howtogeek.com/208224/how-to-add-programs-files-and-folders-to-system-startup-in-windows-8.1/#:~:text=To%20open%20the%20%E2%80%9CStartup%E2%80%9D%20folder%20the%20easy%20way%2C%20just,to%20the%20%E2%80%9CStartup%E2%80%9D%20folder.).
+1. Remove the break.pyw file from [windows startup folder](https://www.howtogeek.com/208224/how-to-add-programs-files-and-folders-to-system-startup-in-windows-8.1/#:~:text=To%20open%20the%20%E2%80%9CStartup%E2%80%9D%20folder%20the%20easy%20way%2C%20just,to%20the%20%E2%80%9CStartup%E2%80%9D%20folder.).
 
 
 
