@@ -31,6 +31,7 @@ def submit(s):
 		label['text'] = f'{min} : {sec}'
 		if min<1:
 			if sec < 30:
+				root2.attributes('-topmost',True)
 				playsound('C:/windows_usage_limiter/beep-07a.wav')
 				root2.deiconify()
 		if sec==0:  
@@ -45,13 +46,6 @@ def submit(s):
 	countdown(int(num),0)
 	root2.mainloop()
 	countdown(0,0)
-
-	# warning.grid(row=0,column=2)
-	# if int(num)<3:
-	# 	warning['text'] = 'Time must be greater than 3 min'
-	# 	root.geometry("500x50")
-	# 	submit('d')
-
 	
 	# root2.update_idletasks()
 	# root2.update()
@@ -64,8 +58,6 @@ num_label = tk.Label(root, text = 'Time Intent(min):   ', font=('calibre',10, 'b
 
 num_entry = tk.Entry(root,textvariable = num_var, font=('calibre',10,'normal'))
 num_entry.focus()
-# warning = tk.Label( text = '',font=('calibre',10, 'bold'))
-# root.bind('<Return>',submit)
 B1 = tk.Button(root,text='Sign out',command=lambda: submit('sign'))
 B2 = tk.Button(root,text='Shutdown',command=lambda: submit('shut'))
 
@@ -73,6 +65,8 @@ B1.grid(row=1,column=1,pady=4)
 B2.grid(row=1,column=2,pady=4)
 num_label.grid(row=0,column=0,pady=2)
 num_entry.grid(row=0,column=1,pady=2)
+root.attributes('-topmost',True)
+playsound('C:/windows_usage_limiter/beep-07a.wav')
 root.deiconify()
 root.mainloop()
 
